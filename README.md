@@ -1,56 +1,240 @@
-<<<<<<< HEAD
-# sakhi_care
+SakhiCare – Beyond Tracking : Women Health Intelligence Platform
 
-A new Flutter project.
+SakhiCare is a mobile-first women’s health platform designed to support physical health, mental well-being, and menstrual awareness through daily tracking, intelligent insights, and empathetic AI assistance.
 
-## Getting Started
+The platform brings together health logging, burnout analysis, period tracking, and conversational support in a single, secure application.
 
-This project is a starting point for a Flutter application.
+📌 Overview
 
-A few resources to get you started if this is your first Flutter project:
+Women often manage multiple health factors simultaneously—sleep, work, stress, and menstrual cycles—without a unified view of how these aspects affect overall well-being.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+SakhiCare addresses this gap by:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-SakhiCare - Beyond Tracking : Women's Health Intelligence Platform
+Collecting daily health signals
 
+Analyzing long-term trends
 
-SakhiCare is a privacy-first women’s health app that helps users track daily wellbeing, menstrual cycles, burnout levels, and receive empathetic AI support.
+Providing contextual insights
 
-Problem:
-Women often struggle with:
-Burnout & fatigue
-Irregular period tracking
-Lack of emotional health support
-Over-complex health apps
+Offering supportive, non-clinical AI conversations
 
-Solution:
-SakhiCare provides:
-Daily health logging (mood, sleep, workload)
-Burnout detection (Low / Medium / High)
-Menstrual cycle & phase prediction
-AI chatbot Sakhi for emotional & health support
-Care Circle alert for high burnout cases
+🎯 Core Objectives
 
-Features:
-Burnout Analysis
-Period Cycle Tracking
-AI Chatbot (LLM-powered)
-Care Circle Support
-Secure JWT Authentication
+Encourage preventive healthcare
 
-TECH STACK
-Backend:
+Improve awareness of physical and mental health patterns
+
+Support emotional well-being without medical diagnosis
+
+Provide a safe, private, and accessible digital companion
+
+🚀 Key Features
+📝 Daily Health Logging
+
+Mood tracking (1–5 scale)
+
+Sleep hours
+
+Physical work hours
+
+Height & weight
+
+Blood group
+
+Secure, user-specific storage
+
+📊 Burnout & Health Insights
+
+Automatic burnout score calculation
+
+Burnout level classification:
+
+Low
+
+Medium
+
+High
+
+Factors considered:
+
+Mood trends
+
+Sleep quality
+
+Workload
+
+BMI
+
+Personalized wellness suggestions
+
+Care circle alert recommendation for high stress levels
+
+🌙 Menstrual Cycle Tracking
+
+Last period date logging
+
+Cycle length & period duration
+
+Current menstrual phase detection:
+
+Menstrual
+
+Follicular
+
+Ovulation
+
+Luteal
+
+Next period estimation
+
+Phase-aware health context
+
+💬 Sakhi AI Chatbot
+
+Emotion-aware conversational support
+
+Contextual responses using menstrual phase
+
+Encourages self-care, rest, hydration, and balance
+
+Clear safety boundaries:
+
+No disease diagnosis
+
+No medication advice
+
+Supportive and empathetic guidance only
+
+🔐 Authentication & Security
+
+JWT-based authentication
+
+Protected API routes
+
+Secure user data isolation
+
+Token-based access control
+
+🧠 Intelligent Design
+
+SakhiCare combines:
+
+Rule-based health logic
+
+Data-driven burnout scoring
+
+Context-aware AI prompting
+
+Ethical AI safeguards
+
+All insights and responses are designed to support awareness, not replace professional medical advice.
+
+🧩 System Architecture
+📱 Flutter Mobile App
+   ├── Health Log Module
+   ├── Period Tracker
+   ├── Burnout Insights
+   └── Sakhi AI Chatbot
+            |
+            ↓
+⚙️ FastAPI Backend
+   ├── JWT Authentication
+   ├── Health Analytics Engine
+   ├── Period Phase Logic
+   └── AI Prompt Management
+            |
+            ↓
+🗄️ Database (SQLite / PostgreSQL)
+
+🔄 Application Flow
+
+User registers and logs in securely
+
+Daily health data is recorded
+
+Backend processes health metrics
+
+Burnout score and insights are generated
+
+Menstrual phase is calculated
+
+Sakhi chatbot responds with contextual support
+
+🛠️ Tech Stack
+Frontend
+
+Flutter
+
+Dart
+
+Material Design
+
+Backend
+
 FastAPI (Python)
-SQLAlchemy + SQLite
-JWT Authentication
-OpenRouter (Mistral-7B LLM)
 
-Frontend:
-Flutter (Dart)
-REST API Integration
->>>>>>> 4a9404b01bafcd26565de0a1c278a5cfaf1c8a35
+REST APIs
+
+JWT Authentication
+
+AI Integration
+
+OpenRouter (Mistral 7B)
+
+Context-aware prompt engineering
+
+Database
+
+SQLite (development)
+
+PostgreSQL (scalable deployment)
+
+Tools
+
+Git & GitHub
+
+VS Code
+
+Postman
+
+🌍 Privacy & Ethics
+
+No medical diagnosis or prescriptions
+
+AI responses follow ethical health guidelines
+
+User data remains private and secure
+
+Focus on awareness, prevention, and emotional support
+
+✨ What Makes SakhiCare Unique
+
+Unified platform for mental health, physical health, and menstrual awareness
+
+Context-aware AI responses based on menstrual phase
+
+Burnout detection using multiple health indicators
+
+Ethical, non-clinical AI design
+
+Simple, accessible mobile experience
+
+🔮 Future Scope
+
+Dark mode & accessibility enhancements
+
+Health trend visualization dashboards
+
+Multilingual support
+
+Wearable device integration
+
+Professional care referrals
+
+Notification & reminder system
+
+
+
+Vision -
+
+SakhiCare aims to create a supportive digital space where women can better understand their bodies, manage stress, and prioritize well-being—through technology that is thoughtful, ethical, and human-centric.
